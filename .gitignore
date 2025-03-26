@@ -1,0 +1,8 @@
+.DS_Store
+node_modules
+.env
+.vscode/settings.json
+.env.local
+notes
+# LangGraph API
+.langgraph_api

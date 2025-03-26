@@ -1,0 +1,28 @@
+{
+  "name": "agents-demo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "tsx --no-warnings ./index.ts",
+    "demo-01": "tsx --no-warnings ./demo_01.ts",
+    "debug": "tsx --inspect-brk ./index.ts",
+    "type-check": "tsc --noEmit"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@ai-sdk/openai": "^1.2.0",
+    "ai": "^4.1.51",
+    "dotenv": "^16.4.7",
+    "openai": "^4.89.1",
+    "zod": "^3.24.2"
+  },
+  "devDependencies": {
+    "@types/node": "^22.13.1",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.3"
+  }
+}
