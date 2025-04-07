@@ -1,6 +1,6 @@
 # Voice Demo
 
-This demo program uses the OpenAI Text-to-Speech and Speech-to-Text API that allows you to turn text into into lifelike spoken audio and audio into text.
+This demo program uses the OpenAI Text-to-Speech and Speech-to-Text APIs that allows you to turn text into lifelike spoken audio and vice-versa.
 
 ## OpenAI API
 

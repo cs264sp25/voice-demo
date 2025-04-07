@@ -20,7 +20,7 @@ const transcription = await openai.audio.transcriptions.create({
   // The Transcriptions API only supports files that are less than 25 MB. 
   // If you have an audio file that is longer than that, you will need to break
   // it up into chunks of 25 MB's or less or used a compressed audio format. 
-  model: "gpt-4o-transcribe", // gpt-4o-mini-transcribe or whisper-1 (old!)
+  model: "gpt-4o-mini-transcribe", // alternatively use gpt-4o-transcribe or whisper-1
 });
 
 console.log(transcription.text);

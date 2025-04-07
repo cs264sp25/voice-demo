@@ -1,4 +1,16 @@
-// Streaming speech-to-text (SST)
+// It is possible to "stream" the SST response so that you can get the
+// transcription as it is being generated. This is useful for long audio files
+// where you don't want to wait for the entire file to be processed before
+// getting the transcription. 
+// 
+// Two caveats:
+// 1. The streaming API does not work for whisper-1 model.
+// 2. The streaming API is not working as expected. The chunk comes in character
+//    by character instead of object by object. See: 
+//    https://github.com/openai/openai-node/issues/1415
+//
+// Consult the docs for the Audio API at
+// https://platform.openai.com/docs/guides/speech-to-text
 
 import fs from "fs";
 import OpenAI from "openai";

@@ -9,7 +9,6 @@
     "demo-02": "tsx --no-warnings ./demo_02.ts",
     "demo-03": "tsx --no-warnings ./demo_03.ts",
     "demo-04": "tsx --no-warnings ./demo_04.ts",
-    "demo-05": "tsx --no-warnings ./demo_05.ts",
     "debug": "tsx --inspect-brk ./index.ts",
     "type-check": "tsc --noEmit"
   },

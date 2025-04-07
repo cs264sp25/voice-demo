@@ -1,7 +1,10 @@
 // The Audio API provides a speech endpoint using a text-to-speech (TTS) model.
-// It comes with 11 built-in voices and various "vibes". Try these at
+// It comes with 11 built-in voices. Try these at
 // https://www.openai.fm/ and consult the docs at
 // https://platform.openai.com/docs/guides/text-to-speech
+
+// You can prompt the model to control aspects of speech, including: Accent,
+// Emotional range, Intonation, Impressions, Speed of speech, Tone, Whispering
 
 import fs from "fs";
 import path from "path";
